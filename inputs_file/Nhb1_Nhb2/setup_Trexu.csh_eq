@@ -30,7 +30,7 @@ while ( $i < 8 )
 	# 32 rep
 	#
 	mkdir $i
-	/PROGRAMS/gromacs-2021.4/exec/bin/gmx_gpu grompp -v -f $mdp \
+	/home/username/PROGRAMS/gromacs-2021.4/exec/bin/gmx_gpu grompp -v -f $mdp \
 		-c $gro -maxwarn 1 \
 		-o ${i}/${fileroot}_${this}_nd.tpr \
 		-p topol.top
