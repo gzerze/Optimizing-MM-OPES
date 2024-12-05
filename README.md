@@ -3,9 +3,9 @@
 
 
 # Full path to application + application name
-source /PROGRAMS/plumed2-v2.8/sourceme.sh
+source "/home/username/PROGRAMS/plumed2-v2.8/sourceme.sh
 
-application="/PROGRAMS/gromacs-2021.4/exec/bin/gmx_gpu mdrun"
+application="/home/username/PROGRAMS/gromacs-2021.4/exec/bin/gmx_gpu mdrun"
 
 # Define number of walkers
 ng=8
